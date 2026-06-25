@@ -68,7 +68,7 @@ export default function Hero({ data }) {
         </motion.div>
         <motion.div initial={{ opacity: 0, scale: 0.95 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 0.8 }} className="relative">
           <div className="absolute inset-0 rounded-[2rem] bg-gradient-to-br from-gold/20 via-transparent to-[#fff]/10 blur-3xl" />
-          <img src="/dist/assets/Picsart_26-06-25_15-43-27-639.png" alt="Software engineer at work" className="relative h-[520px] w-full rounded-[2rem] border border-white/10 object-cover shadow-gold" />
+          <img src="/public/dist/assets/Picsart_26-06-25_15-43-27-639.png" alt="Software engineer at work" className="relative h-[520px] w-full rounded-[2rem] border border-white/10 object-cover shadow-gold" />
         </motion.div>
       </div>
     </section>
